@@ -8,7 +8,6 @@ body {
   font-weight: 100;
   font-style: normal;
   background-image: url(../assets/img/sfondo.png);
-  background-position: center;
   background-size: 100%;
 }
 
@@ -101,13 +100,15 @@ a {
 iframe {
   margin: 2em 0 2em 0;
   border-radius: 2em;
+  margin-left: 1em;
 }
 
 .articoli h3 {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
+  margin: 1.5em;
+  font-size: 1.3em;
+  font-weight: 600;
   text-align: center;
+  color: black;
 }
 
 .articolo {
@@ -116,6 +117,7 @@ iframe {
   margin-top: 10px;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1em;
 }
 
 .articolo h4 {
@@ -124,15 +126,17 @@ iframe {
 }
 
 .articolo a {
-  text-decoration: none;
-  color: #1666c5;
+  color: #009ec0;
   font-weight: bold;
 }
 
 .articolo p {
   font-size: 14px;
   margin: 5px 0;
-  color: #666;
+}
+
+.data {
+  text-align: right;
 }
 
 /* TABELLE */
@@ -187,10 +191,38 @@ form {
   background-color: rgb(231, 231, 231);
 }
 
-button {
-  background-color: rgba(0, 0, 255, 0.315);
-  color: white;
+form h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 1em;
 }
+
+form p {
+  font-weight: 400;
+  text-align: left;
+  padding: 1em;
+}
+
+input {
+  height: 3em;
+  width: 20em;
+  border-style: none;
+  border-bottom: 2px blue dotted;
+  margin-left: 8em;
+  margin-bottom: 2em;
+  padding-left: 1em;
+}
+
+button {
+  height: 3em;
+  width: 10em;
+  background-color: #3570b9;
+  color: white;
+  font-weight: 400;
+  border: none;
+}
+
 /* FOOTER */
 .footer {
   background: linear-gradient(to bottom, rgb(9, 88, 128), rgb(2, 22, 32));
